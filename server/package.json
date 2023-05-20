@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -21,5 +20,6 @@
   "dependencies": {
     "@prisma/client": "^4.14.1",
     "fastify": "^4.17.0"
-  }
+  },
+  "description": ""
 }

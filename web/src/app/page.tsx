@@ -10,7 +10,7 @@ export default function Home() {
         <div className="absolute bottom-0 right-2 top-0 w-2  bg-stripes" />
 
         <a
-          href=""
+          href={`https://github.com/login/oauth/authorize?client_id=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID}`}
           className="flex items-center gap-3 text-left transition-colors hover:text-gray-50"
         >
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400">
@@ -34,7 +34,7 @@ export default function Home() {
             </p>
             <a
               href=""
-              className="hover:bg-green-60 inline-block rounded-full bg-green-500 px-5 font-alt text-sm uppercase leading-none text-black"
+              className="hover:bg-green-60 inline-block rounded-full bg-green-500 px-5 py-3 font-alt text-sm uppercase leading-none text-black"
             >
               CADASTRAR LEMBRANÇA
             </a>

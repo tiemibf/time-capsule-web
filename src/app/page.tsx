@@ -9,10 +9,11 @@ import Link from "next/link";
 
 dayjs.locale(ptBr);
 
-interface Memory {
+export interface Memory {
   id: string;
   coverUrl: string;
   excerpt: string;
+  content?: string;
   createdAt: string;
 }
 
